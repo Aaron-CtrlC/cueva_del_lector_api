@@ -1,0 +1,30 @@
+# Dependencias
+node_modules/
+npm-debug.log*
+
+# Archivos de entorno y credenciales (Seguridad)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# Archivos de compilación / Build outputs
+dist/
+build/
+out/
+.next/
+*.tsbuildinfo
+
+# Logs y bases de datos locales
+logs/
+*.log
+*.sqlite
+*.sqlite-journal
+
+# Archivos del sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

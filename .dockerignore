@@ -1,0 +1,33 @@
+# Dependencias y control de versiones
+node_modules
+.git
+
+# Entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Resultados de compilación y pruebas
+dist
+build
+coverage
+*.tsbuildinfo
+
+# Logs y bases de datos de desarrollo
+*.log
+*.db
+*.db-journal
+*.sqlite
+*.sqlite-journal
+
+# Editores y sistema operativo
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# Configuración de Docker (opcional, pero seguro)
+Dockerfile
+docker-compose*.yml
+.dockerignore
+.gitignore
